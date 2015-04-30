@@ -15,6 +15,9 @@ Source0:	http://downloads.sourceforge.net/polyclipping/clipper_ver%{version}.zip
 URL:		http://sourceforge.net/projects/polyclipping
 BuildRequires:	cmake
 BuildRequires:	dos2unix
+BuildRequires:	iconv
+BuildRequires:	libstdc++-devel
+BuildRequires:	pkgconfig
 BuildRequires:	sed >= 4.0
 BuildRequires:	unzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
