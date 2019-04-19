@@ -6,12 +6,12 @@
 
 Summary:	Polygon clipping library
 Name:		polyclipping
-Version:	6.2.1
+Version:	6.4.2
 Release:	1
 License:	Boost
 Group:		Libraries
 Source0:	http://downloads.sourceforge.net/polyclipping/clipper_ver%{version}.zip
-# Source0-md5:	040821e66ec529f3d78f8ff7c4e256b2
+# Source0-md5:	100b4ec56c5308bac2d10f3966e35e11
 URL:		http://sourceforge.net/projects/polyclipping
 BuildRequires:	cmake
 BuildRequires:	dos2unix
@@ -84,7 +84,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc License.txt README
 %doc "Third\ Party/Haskell" "Third\ Party/perl" "Third\ Party/ruby" "Third\ Party/python" Documentation
 %attr(755,root,root) %{_libdir}/libpolyclipping.so.*.*.*
-%attr(755,root,root) %ghost %{_libdir}/libpolyclipping.so.19
+%attr(755,root,root) %ghost %{_libdir}/libpolyclipping.so.22
 
 %files devel
 %defattr(644,root,root,755)
