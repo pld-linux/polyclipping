@@ -1,0 +1,11 @@
+--- polyclipping-6.4.2/cpp/CMakeLists.txt.orig	2015-04-23 09:04:20.000000000 +0200
++++ polyclipping-6.4.2/cpp/CMakeLists.txt	2020-09-27 10:56:52.475493707 +0200
+@@ -5,7 +5,7 @@
+ # The header name clipper.hpp is too generic, so install in a subdirectory
+ SET(CMAKE_INSTALL_INCDIR "${CMAKE_INSTALL_PREFIX}/include/polyclipping")
+ SET(CMAKE_INSTALL_LIBDIR "${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}")
+-SET(CMAKE_INSTALL_PKGCONFIGDIR "${CMAKE_INSTALL_PREFIX}/share/pkgconfig")
++SET(CMAKE_INSTALL_PKGCONFIGDIR "${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}/pkgconfig")
+ SET(PCFILE "${CMAKE_CURRENT_BINARY_DIR}/polyclipping.pc")
+ 
+ SET(BUILD_SHARED_LIBS ON CACHE BOOL
