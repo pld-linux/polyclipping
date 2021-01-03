@@ -8,7 +8,7 @@ Summary:	Polygon clipping library
 Summary(pl.UTF-8):	Biblioteka do obcinania wielokątów
 Name:		polyclipping
 Version:	6.4.2
-Release:	2
+Release:	3
 License:	Boost
 Group:		Libraries
 Source0:	http://downloads.sourceforge.net/polyclipping/clipper_ver%{version}.zip
