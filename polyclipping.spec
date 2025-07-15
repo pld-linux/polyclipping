@@ -60,7 +60,7 @@ wykorzystujących bibliotekę polyclipping.
 
 %prep
 %setup -qc
-%patch0 -p1
+%patch -P0 -p1
 
 # Delete binaries
 find . \( -name "*.exe" -o -name "*.dll" \) -print0 | xargs -0 rm -v
